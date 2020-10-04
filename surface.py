@@ -25,10 +25,12 @@ def show_image(name, img):
 
 
 # image input to generate the surface ---------------------------------------------------------------------------------------------
-img = cv2.imread('4.png')
+# img = cv2.imread('4.png')
+img = cv2.imread('2.png')
 # --------------------------------------------------------------------------------------------------------------------------------
 # number of classes for clustering
-K=13
+# K=13
+K=12
 
 image=km.kmeans_segmentation(img, K)
 
