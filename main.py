@@ -1,7 +1,8 @@
 import k_means_clustering as km
 import cv2
 
-imagem=cv2.imread('4.png')
+# imagem=cv2.imread('4.png')
+imagem=cv2.imread('5.png')
 
 imagem = km.kmeans_segmentation(imagem, 6)
 
